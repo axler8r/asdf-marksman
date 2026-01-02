@@ -37,7 +37,7 @@ asdf install marksman 2025-12-13
 # Install latest version
 asdf install marksman latest
 
-# Set a version globally (in your ~/.tool-versions file)
+# Set a version globally (on your ~/.tool-versions file)
 asdf set --home marksman latest
 
 # Now marksman commands are available

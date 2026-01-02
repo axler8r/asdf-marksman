@@ -13,9 +13,9 @@ mkdir -p "$ASDF_DOWNLOAD_PATH"
 platform="$(get_platform)"
 
 if [[ "$platform" == "windows" ]]; then
-	release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME.exe"
+    release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME.exe"
 else
-	release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME"
+    release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME"
 fi
 
 download_release "$ASDF_INSTALL_VERSION" "$release_file"
